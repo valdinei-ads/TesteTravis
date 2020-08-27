@@ -1,0 +1,9 @@
+/Users/valmeida/Development/dotNet/workspace/TesteTravis/Calculadora/bin/Debug/netcoreapp3.1/Calculadora.deps.json
+/Users/valmeida/Development/dotNet/workspace/TesteTravis/Calculadora/bin/Debug/netcoreapp3.1/Calculadora.dll
+/Users/valmeida/Development/dotNet/workspace/TesteTravis/Calculadora/bin/Debug/netcoreapp3.1/Calculadora.pdb
+/Users/valmeida/Development/dotNet/workspace/TesteTravis/Calculadora/obj/Debug/netcoreapp3.1/Calculadora.csprojAssemblyReference.cache
+/Users/valmeida/Development/dotNet/workspace/TesteTravis/Calculadora/obj/Debug/netcoreapp3.1/Calculadora.AssemblyInfoInputs.cache
+/Users/valmeida/Development/dotNet/workspace/TesteTravis/Calculadora/obj/Debug/netcoreapp3.1/Calculadora.AssemblyInfo.cs
+/Users/valmeida/Development/dotNet/workspace/TesteTravis/Calculadora/obj/Debug/netcoreapp3.1/Calculadora.csproj.CoreCompileInputs.cache
+/Users/valmeida/Development/dotNet/workspace/TesteTravis/Calculadora/obj/Debug/netcoreapp3.1/Calculadora.dll
+/Users/valmeida/Development/dotNet/workspace/TesteTravis/Calculadora/obj/Debug/netcoreapp3.1/Calculadora.pdb
