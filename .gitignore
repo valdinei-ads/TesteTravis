@@ -1,0 +1,3 @@
+*.obj
+*CalculadoraTests/bin
+*.vs
