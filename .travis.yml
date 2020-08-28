@@ -10,7 +10,7 @@ before_script:
   - chmod -R a+x scripts
 script:
   - ./scripts/dotnet-build.sh
-  - ./scripts/dotnet-test.sh
+  - ./scripts/java-version.sh
 # after_success:
 #   - ./scripts/dotnet-publish.sh
 #   - ./scripts/docker-publish.sh
