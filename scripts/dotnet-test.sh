@@ -20,4 +20,4 @@ dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=cobertura /p:Coverle
 
 echo ${CODACY_PROJECT_TOKEN}
 # Send test report result to codacy
-sh ./scripts/codacy-test-reporter.sh report -l CSharp -t ${CODACY_PROJECT_TOKEN} -r ./CalculadoraTests/coverage.cobertura.xml
+bash <(curl -Ls https://coverage.codacy.com/get.sh) report -l CSharp -t ${CODACY_PROJECT_TOKEN} -r ./CalculadoraTests/coverage.cobertura.xml
