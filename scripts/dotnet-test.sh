@@ -18,6 +18,6 @@ echo 'Running unit tests - cobertura output format'
 # Running unit tests - 'cobertura' output format
 dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=cobertura /p:CoverletOutput=coverage /p:Exclude=[xunit.*]* ./TesteTravis.sln
 
-echo 'Send test report result to codacy'
+echo ${CODACY_PROJECT_TOKEN}
 # Send test report result to codacy
 sh ./scripts/codacy-test-reporter.sh report -l CSharp -t ${CODACY_PROJECT_TOKEN} -r ./CalculadoraTests/coverage.cobertura.xml
