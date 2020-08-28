@@ -7,12 +7,12 @@ chmod +x ./codacy-test-reporter.jar
 echo 'Install dotnet tools to generate test report'
 # Install dotnet tools to generate test report
 dotnet tool install --global coverlet.console 
-dotnet add package coverlet.msbuild
+# dotnet add package coverlet.msbuild
 
 echo 'Build Solution'
 # Build solution
 dotnet restore
-dotnet build
+dotnet build TesteTravis.sln
 
 echo 'Running unit tests - cobertura output format'
 # Running unit tests - 'cobertura' output format
@@ -21,4 +21,4 @@ dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=cobertura /p:Coverle
 echo 'Send test report result to codacy'
 # Send test report result to codacy
 # java -jar ./codacy-test-reporter.jar report -l CSharp -t ${CODACY_PROJECT_TOKEN} -r ./CalculadoraTests/coverage.cobertura.xml
-bash <(curl -Ls https://coverage.codacy.com/get.sh) report -l CSharp -r ./CalculadoraTests/coverage.cobertura.xml
+❯ bash <(curl -Ls https://coverage.codacy.com/get.sh) report -l CSharp -t ${CODACY_PROJECT_TOKEN} -r ./CalculadoraTests/coverage.cobertura.xml
