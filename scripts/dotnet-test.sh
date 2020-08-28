@@ -1,5 +1,7 @@
 #!/bin/bash
 
+ls
+
 # Download codacy test reporter
 curl -L https://github.com/codacy/codacy-coverage-reporter/releases/download/4.0.5/codacy-coverage-reporter-4.0.5-assembly.jar > ./codacy-test-reporter.jar
 chmod +x ./codacy-test-reporter.jar
