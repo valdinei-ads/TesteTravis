@@ -3,7 +3,7 @@
 # Download codacy test reporter
 # curl -L https://github.com/codacy/codacy-coverage-reporter/releases/download/4.0.5/codacy-coverage-reporter-4.0.5-assembly.jar > ./codacy-test-reporter.jar
 curl -L https://coverage.codacy.com/get.sh > ./scripts/codacy-test-reporter.sh
-chmod +x ./scripts/codacy-test-reporter.sh
+# chmod +x ./scripts/codacy-test-reporter.sh
 
 echo 'Install dotnet tools to generate test report'
 # Install dotnet tools to generate test report
