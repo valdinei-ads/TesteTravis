@@ -10,7 +10,7 @@ dotnet add package coverlet.msbuild
 
 # Build solution
 dotnet restore
-dotnet build ./MySolution.sln
+dotnet build
 
 # Running unit tests - 'cobertura' output format
 dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=cobertura /p:CoverletOutput=coverage /p:Exclude=[xunit.*]* ./TesteTravis.sln
