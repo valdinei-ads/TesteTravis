@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "JAdrGCxyZ3/Mg7KF1x6DeOjBkdJJVK5CM/gnqS3NR4N5eeRyr+0ZGM3kZEWNjodHnlX7IHieURAwdAV4JlCJAw==",
+  "dgSpecHash": "SVcDLeYcZu3Odqc9c29A8wu+3qoY3K5iS7JzeeH+v4xe5u6F8wKNvHGEwqYD31LK/5zHHyBsZ3K6yi3WYhTfkw==",
   "success": true,
   "projectFilePath": "/Users/valmeida/Development/dotNet/workspace/TesteTravis/CalculadoraTests/CalculadoraTests.csproj",
   "expectedPackageFiles": [
     "/Users/valmeida/.nuget/packages/coverlet.collector/1.2.0/coverlet.collector.1.2.0.nupkg.sha512",
+    "/Users/valmeida/.nuget/packages/coverlet.msbuild/2.9.0/coverlet.msbuild.2.9.0.nupkg.sha512",
     "/Users/valmeida/.nuget/packages/microsoft.codecoverage/16.5.0/microsoft.codecoverage.16.5.0.nupkg.sha512",
     "/Users/valmeida/.nuget/packages/microsoft.csharp/4.0.1/microsoft.csharp.4.0.1.nupkg.sha512",
     "/Users/valmeida/.nuget/packages/microsoft.net.test.sdk/16.5.0/microsoft.net.test.sdk.16.5.0.nupkg.sha512",

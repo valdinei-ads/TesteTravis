@@ -12,7 +12,7 @@ namespace CalculadoraTests
             var calculadora = new Calculadora.Calculadora();
 
             //Act
-            var resultado = calculadora.Soma(5, 2);
+            var resultado = calculadora.Soma(2, 2);
 
             //Assert
             Assert.Equal(expected: 4, actual:resultado);
